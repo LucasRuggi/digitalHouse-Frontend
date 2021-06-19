@@ -10,6 +10,28 @@
 .divLogo{
     background-color: #F0A83E;
 }
+.divBanner{
+    background-image: url(../img/bowl.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 409px;
+    text-align: center;
+}
+.titeBanner{
+    display: inline;
+    text-align: center;
+    background-color: white;
+    font-size: 30px;
+}
+
+.subTitleBanner{
+    color: #FFFFFF;
+    background-color: #F0A83E;
+    display: inline;
+}
+.fa-paw{
+    color: white;
+}
 
 /** CSS--MAIN **/ 
 
