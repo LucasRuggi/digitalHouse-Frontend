@@ -1,76 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-* {
-    margin: 0px;
-    padding: 0px;
+/** CSS--HEADER **/ 
+
+.txtHeaderTop{
+    color: #F3F3F3;
+    background-color: #222222;
+
 }
-header{
-    background-image: url(../img/fondoHeader.jpg);
-    background-position: bottom;
+.divLogo{
+    background-color: #F0A83E;
 }
-main{
-    padding-bottom: 220px;
+
+/** CSS--MAIN **/ 
+
+.tituloImgInicio{
+    color: #3C2313;
 }
+.precio{
+    color: #F0A83E;
+}
+
+/** CSS--FOOTER **/
 footer{
-    padding-top: 10px;
-    background-color: #005677;
-    text-align: center;
+    background-color: #3C2313;
 }
-.divLogo {
-    text-align: center;
+.listaDatos{
+    background-color: #3C2313;
 }
-.logoImg{
-    width: 100px;
-    height: auto;
-}
-h1 {
-    text-align: center;
-    background: #c4c4c4;
-    font-family:'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 35px;
-    line-height: 84.69%;
-    font-feature-settings: "cpsp" on;
-    color: #005677;
-}
-.sectionDtsPers {
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-    padding-top: 50px;
-    width: 80%;
-}
-
-h2 {
-    text-align: left;
-    background: #c4c4c4;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    font-feature-settings: "cpsp" on;
-    color: #005677;
-}
-ul{
-    text-align: left;
-    width: 92%;
-    display: block;
-    margin: 0 auto;
-    padding-top: 10px;
-}
-em{
-    font-weight: bold;
-}
-
-.txtFooter{
+.divUltP{
+    background-color: #222222;
     color: white;
+    text-align: center;
 }
-
-.icoGit{
-    width: auto;
-    height: 20px;
-    color: white;
-}
-
-
