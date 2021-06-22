@@ -1,56 +1,116 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
-/** CSS--HEADER **/ 
-
-.txtHeaderTop{
-    color: #F3F3F3;
-    background-color: #222222;
-
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
-.divLogo{
-    background-color: #F0A83E;
+
+body {
+    background-color: #e5e5e5;
 }
-.divBanner{
-    background-image: url(../img/bowl.png);
+
+/** CSS--HEADER **/
+
+.descuentosTxt {
+    background-color: #1cd1b0;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+}
+.txtTitulo {
+    background-color: #00669f;
+    font-size: 40px;
+    text-align: left;
+    padding-left: 28px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    font-family: "Roboto", sans-serif;
+}
+
+/** CSS--MAIN **/
+main {
+    background-color: #e5e5e5;
+    width: auto;
+}
+.divSection{
+    text-align: center;
+    justify-content: center;
+}
+article{
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    margin-left: 32px;
+    margin-top: 152px;
+    margin-bottom: 151px;
+    background-color: #f3f3f3;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 9px 0px -1px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 0px 9px 0px -1px rgba(0, 0, 0, 0);
+}
+
+.divArt {
+    position: relative;
+    background-image: url(../img/fondoBatman.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 409px;
+    width: auto;
+    height: 193px;
+}
+.divArtH {
+    position: relative;
+    background-image: url(../img/fondoHarley.png);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 193px;
+}
+.avatarHeroes {
+    margin-top: 128px;
+    border-radius: 50%;
     text-align: center;
 }
-.titeBanner{
-    display: inline;
+
+.titleHeroes {
     text-align: center;
-    background-color: white;
     font-size: 30px;
+    margin-top: 60px;
+    font-family: "Roboto", sans-serif;
 }
-
-.subTitleBanner{
-    color: #FFFFFF;
-    background-color: #F0A83E;
-    display: inline;
-}
-.fa-paw{
-    color: white;
-}
-
-/** CSS--MAIN **/ 
-
-.tituloImgInicio{
-    color: #3C2313;
-}
-.precio{
-    color: #F0A83E;
-}
-
-/** CSS--FOOTER **/
-footer{
-    background-color: #3C2313;
-}
-.listaDatos{
-    background-color: #3C2313;
-}
-.divUltP{
-    background-color: #222222;
-    color: white;
+.txtHeroes {
     text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-left: 16px;
+    padding-right: 17px;
+    font-family: "Roboto", sans-serif;
+}
+.divBtnHeroes {
+    text-align: center;
+    margin-top: 37px;
+    padding-bottom: 18px;
+}
+
+.btnHeroes {
+    border: none;
+    background-color: #00669f;
+    height: 48.52px;
+    width: 128.78px;
+    font-size: 15px;
+    color: #F3F3F3;
+}
+/** CSS--FOOTER **/
+
+.divUltP {
+    background-color: #00669f;
+    color: white;
+    text-align: left;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: "Roboto", sans-serif;
 }
