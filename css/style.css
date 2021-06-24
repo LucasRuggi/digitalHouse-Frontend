@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -6,111 +7,130 @@
     padding: 0px;
 }
 
-body {
-    background-color: #e5e5e5;
-}
 
 /** CSS--HEADER **/
-
-.descuentosTxt {
-    background-color: #1cd1b0;
-    font-size: 15px;
-    font-weight: 400;
-    text-align: left;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-family: "Roboto", sans-serif;
+header{
+    background-color: #222222;
+    width: 100%;
+    height: 100px;
 }
-.txtTitulo {
-    background-color: #00669f;
-    font-size: 40px;
-    text-align: left;
-    padding-left: 28px;
-    padding-top: 28px;
-    padding-bottom: 28px;
-    font-family: "Roboto", sans-serif;
+.containerHeader{
+    display: flex;
+    justify-content:space-between;
+}
+.divLogo{
+    width: 234px;
+    height: 80px;
+
+}
+.logo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.navBar{
+    display: flex;
+    margin-top: 40px;
+    margin-right: 20px;
+    width: 284px;
+    height: 19px;
+}
+.navBar ul{
+    list-style: none;
+    display: flex;
+    width: 450px;
+    justify-content:space-evenly;
+}
+.navBar ul li a{
+    text-decoration: none;
+    color: #f3f3f3;
+    font-size:16px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /** CSS--MAIN **/
-main {
-    background-color: #e5e5e5;
+main{
     width: auto;
+    height: 678px;
 }
-.divSection{
-    text-align: center;
+.container{
+    display: flex;
     justify-content: center;
 }
-article{
-    display: inline-block;
-    position: relative;
-    width: 300px;
-    margin-left: 32px;
-    margin-top: 152px;
-    margin-bottom: 151px;
-    background-color: #f3f3f3;
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 9px 0px -1px rgba(0, 0, 0, 0);
-    box-shadow: 0px 10px 13px -7px #000000, 0px 9px 0px -1px rgba(0, 0, 0, 0);
+.delivery{
+    background-image: url(../img/delivery.jpg);
+    width: 490px;
+    height: 350px;
+    margin: 35px 0px 35px 19px;
+}
+p{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #FC200C;
+    margin: 20px 0px 0px 20px;
+}
+span{
+    color: #f3f3f3;
 }
 
-.divArt {
-    position: relative;
-    background-image: url(../img/fondoBatman.png);
-    background-repeat: no-repeat;
-    width: auto;
-    height: 193px;
+.containerHijo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 35px 0px 35px 19px;
+    width: 490px;
+    height: 350px;
 }
-.divArtH {
-    position: relative;
-    background-image: url(../img/fondoHarley.png);
-    background-repeat: no-repeat;
-    width: auto;
-    height: 193px;
-}
-.avatarHeroes {
-    margin-top: 128px;
-    border-radius: 50%;
+.tituloTop5{
+    width: 100%;
     text-align: center;
 }
+.imgPizzaTorre{
+    width: 92px;
+    height: 129px;
 
-.titleHeroes {
-    text-align: center;
-    font-size: 30px;
-    margin-top: 60px;
-    font-family: "Roboto", sans-serif;
 }
-.txtHeroes {
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    font-weight: 500;
-    padding-top: 15px;
-    padding-left: 16px;
-    padding-right: 17px;
-    font-family: "Roboto", sans-serif;
-}
-.divBtnHeroes {
-    text-align: center;
-    margin-top: 37px;
-    padding-bottom: 18px;
-}
+.listaTop5{
+    width: 385px;
+    height: 250px;
 
-.btnHeroes {
-    border: none;
-    background-color: #00669f;
-    height: 48.52px;
-    width: 128.78px;
-    font-size: 15px;
-    color: #F3F3F3;
+}
+.tituloPizzaTop{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+.top5{
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.top5 ul li{
+    font-family: 'Roboto', sans-serif;
 }
 /** CSS--FOOTER **/
+footer{
+    background-color: #222222;
+    width: 100%;
+    height: 150px;
+}
+.navFooter{
+    margin: 19px 0 19px 20px;
+}
+.navFooter ul{
+    height: 112px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.navFooter ul li a{
+    text-decoration: none;
+    color: #f3f3f3;
+    font-size:16px;
+    font-family: 'Roboto', sans-serif;
+}
+.divLogoFooter{
+    margin: 35px 42px 35px 0px;
 
-.divUltP {
-    background-color: #00669f;
-    color: white;
-    text-align: left;
-    padding-left: 16px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    font-family: "Roboto", sans-serif;
 }
