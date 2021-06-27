@@ -1,136 +1,171 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
-* {
-    box-sizing: border-box;
+*{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
-
-
-/** CSS--HEADER **/
-header{
-    background-color: #222222;
-    width: 100%;
-    height: 100px;
-}
-.containerHeader{
-    display: flex;
-    justify-content:space-between;
-}
-.divLogo{
-    width: 234px;
-    height: 80px;
-
-}
-.logo{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 20px;
-}
-.navBar{
-    display: flex;
-    margin-top: 40px;
-    margin-right: 20px;
-    width: 284px;
-    height: 19px;
-}
-.navBar ul{
-    list-style: none;
-    display: flex;
-    width: 450px;
-    justify-content:space-evenly;
-}
-.navBar ul li a{
-    text-decoration: none;
-    color: #f3f3f3;
-    font-size:16px;
+body{
+    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
 }
-
-/** CSS--MAIN **/
-main{
-    width: auto;
-    height: 678px;
+.topHeader{
+    background-color: #222222;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 90px;
+    align-items: center;
+}
+.topHeader ul{
+   list-style: none;
+   display: flex;
+   font-weight: 400;
+}
+.topHeader p{
+   font-size: 12px;
+}
+.topHeader ul li{
+   margin: 0px 5px;
+   font-size: 12px;
+}
+.header{
+   background-color: #F0A83E;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 24px 40px;
+}
+.header nav ul {
+   list-style-image: url('../img/huella.png');
+   display: flex;
+}
+.header nav ul li {
+   margin: auto 20px;
+}
+.header nav ul li a{
+   font-size: 13px;
+   color: #fff;
 }
 .container{
-    display: flex;
-    justify-content: center;
+   background-image: url('../img/background.png');
+   min-height: 409px;
+   position: relative;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
-.delivery{
-    background-image: url(../img/delivery.jpg);
-    width: 490px;
-    height: 350px;
-    margin: 35px 0px 35px 19px;
+.container div{
+   position: absolute;
+   transform: translate(-80%,-50%);
+   top: 50%;
+   left: 80%;
+   min-width: 365px;
 }
-p{
-    font-size: 24px;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
-    color: #FC200C;
-    margin: 20px 0px 0px 20px;
+.container h1{
+   color: #3C2313;
+   font-weight: 400;
+   font-size: 30px;
+   background-size: 30px;
+   text-align: center;
+   background-color: #fff;
+   padding: 9px 10px 10px;
 }
-span{
-    color: #f3f3f3;
+.container p{
+   font-size: 16px;
+   text-align: center;
+   color: #3c2313;
+   margin: 12px auto;
 }
-
-.containerHijo{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 35px 0px 35px 19px;
-    width: 490px;
-    height: 350px;
+.container button{
+   display: block;
+   margin: 0 auto;
+   background-color: #F0A83E;
+   color: #fff;
+   padding: 15px 23px;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   font-size: 16px;
 }
-.tituloTop5{
-    width: 100%;
-    text-align: center;
+.destacados{
+   margin-top: 24px;
 }
-.imgPizzaTorre{
-    width: 92px;
-    height: 129px;
-
+.destacados .huella{
+   text-align: center;
+   margin-bottom: 10px;
 }
-.listaTop5{
-    width: 385px;
-    height: 250px;
-
+.destacados h2 {
+   text-align: center;
+   font-size: 40px;
+   font-weight: 700;
 }
-.tituloPizzaTop{
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 20px;
+.destacados nav ul{
+   padding-left: 0;
+   display: flex;
+   justify-content: center;
 }
-.top5{
-    height: 130px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.destacados nav ul li{
+   list-style: none;
+   text-align: center;
+   margin: auto 13px;
 }
-.top5 ul li{
-    font-family: 'Roboto', sans-serif;
+.destacados nav ul li a{
+   color: #666666;
+   font-size: 15px;
+   font-weight: 400;
 }
-/** CSS--FOOTER **/
+.destacados .productos{
+   margin: 49px auto 78px auto;
+   display: flex;
+   justify-content: space-between;
+   padding: 0 95px 8px 95px;
+}
+.destacados .productos div{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #fbfaf6;
+   min-width: 263px;
+   padding-bottom: 4.45px;
+}
+.destacados .productos span{
+   color: #F0A83E;
+}
 footer{
-    background-color: #222222;
-    width: 100%;
-    height: 150px;
+   background-color: #3C2313;
+   padding: 23px 70px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
 }
-.navFooter{
-    margin: 19px 0 19px 20px;
-}
-.navFooter ul{
-    height: 112px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.navFooter ul li a{
-    text-decoration: none;
-    color: #f3f3f3;
-    font-size:16px;
-    font-family: 'Roboto', sans-serif;
-}
-.divLogoFooter{
-    margin: 35px 42px 35px 0px;
 
+footer h3{
+   color: #fff;
+   font-weight: 700;
+   font-size: 20px;
+}
+footer div div{
+   display: flex;
+   align-items: center;
+}
+footer .txt{
+   display: flex;
+   flex-direction: column;
+   padding-left: 30px;
+   align-items: flex-start;
+}
+footer p{
+   color: #8A8787;
+   font-size: 10px;
+}
+.copyFooter{
+   background-color: #222222;
+   padding: 4px;
+}
+.copyFooter p{
+   color: #fff;
+   font-weight: 700;
+   font-size: 12px;
+   text-align: center;
 }
